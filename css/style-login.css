@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-image: url("../assets/img/iconTuiter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#idLogo {
+    float: left;
+    width: 50%;
+    height: 95%;
+}
+
+#idLogin {
+    background-color: white;
+    float: right;
+    width: 50%;
+    height: 95%;
+    background-size: cover;
+}
+
+.footer {
+    border-top: 1px solid black;
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+.footer>p {
+    color: gray;
+    text-align: center;
+    margin: 5px;
+}
+
+.descHomePage {
+    color: black;
+    text-align: center;
+    width: 40%;
+    margin: 25% auto;
+}
+
+.descHomePage>button {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.descHomePage>h2 {
+    margin-top: 30px;
+    font-size: 18px;
+    float: left;
+}
+
+.descHomePage>h1 {
+    text-align: justify;
+    float: left;
+}
+
+.descHomePage>p {
+    text-align: justify;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}

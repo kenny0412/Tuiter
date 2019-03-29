@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/general/style-general.css">
+    <link rel="stylesheet" href="../css/style-dashboard.css">
+    <link rel="stylesheet" href="../Model/register.php">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="navbar bg-light">
+        <div class="content">
+            <ul>
+                <li class="nav-item cont-left">
+                    <a href="./login.html">Inicio</a>
+                </li>
+                <li class="nav-item cont-rigth">
+                    <button class="btnPrin">Tuitear</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="box-register">
+        <div class="box-header">
+            <h3>Crear usuario:</h3>
+            <hr>
+        </div>
+        <div class="box-content">
+                <form action="../Model/register.php" method="POST">
+                    <label for=""></label>
+                    <input type="text" class="inp-form" name="name" placeholder="Nombre Completo">
+                    <label for=""></label>
+                    <input type="text" class="inp-form" name="email" placeholder="Email">
+                    <label for=""></label>
+                    <input type="text" class="inp-form" name="nickname" placeholder="Nombre de usuario">
+                    <label for=""></label>
+                    <input type="text" class="inp-form" name="password" placeholder="Contraseña">
+                    <label for=""></label>
+                    <input type="text" class="inp-form" name="confirm" placeholder="Confirmar contraseña">
+                   <div class="center">
+                       <button class="btnPrin" type="button" id="back" onclick="location='login.html'">Cancelar</button>
+                       <button class="btnPrin" type="submit">Acceptar</button>
+                    </div>
+                    <div class="divError">
+                        <ul id="error">
+                            
+                        </ul>
+                    </div>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
