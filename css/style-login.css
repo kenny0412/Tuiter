@@ -76,3 +76,7 @@ body {
     font-weight: bold;
     margin: 15px;
 }
+
+p>i {
+    margin: 0px 10px;
+}

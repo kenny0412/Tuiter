@@ -1,9 +1,9 @@
 <?php
-    try {
-        $connection = new PDO('mysql:host=localhost;dbname=tuiter','root', '');
-          
-    } catch (PDOExeption $error) {
-        echo "Error: " . $error->getMessage(); 
-    }
+$servidor = "localhost";
+$clave = "";
+$usuario = "root";
+
+$connection = new mysqli($servidor, $usuario, $clave, "tuiter");
+ 
     ?>
   
