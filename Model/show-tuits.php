@@ -25,10 +25,10 @@
                     echo("</div>");
                 }
                 }else{
-                    console.log("No hay datos");
+                    echo "No tiene tuits";
                 }
         } else {
-            console.log("Error en la base de datos");
+           echo "Error en la base de datos";
         }
 
 
